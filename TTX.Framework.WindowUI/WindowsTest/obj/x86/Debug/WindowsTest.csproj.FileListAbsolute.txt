@@ -51,3 +51,6 @@ D:\Project files\Program project\TTX.Framework.WindowUI\WindowsTest\bin\Debug\Mi
 D:\Project files\Program project\TTX.Framework.WindowUI\WindowsTest\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\Project files\Program project\TTX.Framework.WindowUI\WindowsTest\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 D:\Project files\Program project\TTX.Framework.WindowUI\WindowsTest\obj\x86\Debug\WindowsTest.frmList.resources
+F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Debug\WindowsTest.exe.config
+F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\obj\x86\Debug\WindowsTest.exe
+F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\obj\x86\Debug\WindowsTest.pdb
