@@ -305,5 +305,18 @@ namespace TX.Framework.WindowUI.Controls.Docking
 				handler(this, e);
 		}
 		#endregion
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // DockContent
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "DockContent";
+            //this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.ResumeLayout(false);
+
+        }
 	}
 }

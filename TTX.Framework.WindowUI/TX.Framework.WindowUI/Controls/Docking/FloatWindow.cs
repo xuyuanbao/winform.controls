@@ -45,7 +45,7 @@ namespace TX.Framework.WindowUI.Controls.Docking
             }
             else
             {
-                StartPosition = FormStartPosition.WindowsDefaultLocation;
+                StartPosition = FormStartPosition.CenterScreen;  // WindowsDefaultLocation;
                 Size = dockPanel.DefaultFloatWindowSize;
             }
 

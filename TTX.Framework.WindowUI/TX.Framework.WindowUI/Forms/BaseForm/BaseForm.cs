@@ -96,7 +96,7 @@ namespace TX.Framework.WindowUI.Forms
             this.UpdateStyles();
             base.FormBorderStyle = FormBorderStyle.None;
             base.Padding = this.DefaultPadding;
-            this.StartPosition = FormStartPosition.CenterParent;
+            //this.StartPosition = FormStartPosition.CenterParent;
             base.Size = new Size(500, 350);
             this.ResetRegion();
             ////任务栏的logo
@@ -138,6 +138,9 @@ namespace TX.Framework.WindowUI.Forms
             }
         }
 
+        /// <summary>
+        /// 窗体圆角值
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(3)]
         [Description("窗体圆角值")]
@@ -150,7 +153,9 @@ namespace TX.Framework.WindowUI.Forms
                 base.Invalidate();
             }
         }
-
+        /// <summary>
+        /// 是否允许客户调整窗体大小
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(true)]
         [Description("是否允许客户调整窗体大小")]
@@ -159,7 +164,9 @@ namespace TX.Framework.WindowUI.Forms
             get { return this._ResizeEnable; }
             set { this._ResizeEnable = value; }
         }
-
+        /// <summary>
+        /// 窗口标题高度，为0则为无标题栏窗体
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(25)]
         [Description("窗口标题高度，为0则为无标题栏窗体")]
@@ -181,7 +188,9 @@ namespace TX.Framework.WindowUI.Forms
                 base.Invalidate();
             }
         }
-
+        /// <summary>
+        /// 窗口标题字体
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(typeof(Font), "CaptionFont")]
         [Description("窗口标题字体")]
@@ -202,7 +211,9 @@ namespace TX.Framework.WindowUI.Forms
                 base.Invalidate(new Rectangle(0, 0, this.Width, this.CaptionHeight));
             }
         }
-
+        /// <summary>
+        /// 窗口标题字体颜色
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(typeof(Color), "White")]
         [Description("窗口标题字体颜色")]
@@ -215,7 +226,9 @@ namespace TX.Framework.WindowUI.Forms
                 base.Invalidate(new Rectangle(0, 0, this.Width, this.CaptionHeight));
             }
         }
-
+        /// <summary>
+        /// 窗体控制按钮大小
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(typeof(Size), "32, 18")]
         [Description("窗体控制按钮大小")]
@@ -224,7 +237,9 @@ namespace TX.Framework.WindowUI.Forms
             get { return this._ControlBoxSize; }
             set { this._ControlBoxSize = value; base.Invalidate(new Rectangle(0, 0, this.Width, this.CaptionHeight)); }
         }
-
+        /// <summary>
+        /// 窗体标题栏内容与边框的偏移量
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(typeof(Point), "8,0")]
         [Description("窗体标题栏内容与边框的偏移量")]
@@ -233,7 +248,9 @@ namespace TX.Framework.WindowUI.Forms
             get { return this._Offset; }
             set { this._Offset = value; base.Invalidate(new Rectangle(0, 0, this.Width, this.CaptionHeight)); }
         }
-
+        /// <summary>
+        /// 边框宽度
+        /// </summary>
         [Category("TXProperties")]
         [DefaultValue(3)]
         [Description("边框宽度")]
@@ -273,6 +290,14 @@ namespace TX.Framework.WindowUI.Forms
             }
         }
 
+        //加了以下代码之后，会崩溃
+        //[DefaultValue(FormStartPosition.CenterScreen)]
+        //public new FormStartPosition StartPosition
+        //{
+        //    get { return this.StartPosition; }
+        //    set { this.StartPosition = value; }
+        //}
+
         protected Rectangle CaptionRect
         {
             get
@@ -288,7 +313,7 @@ namespace TX.Framework.WindowUI.Forms
                 return new Rectangle(this.Padding.Left,
                     this.CaptionHeight + this.Padding.Top,
                     this.Width - this.Padding.Left - this.Padding.Right,
-                    this.Height - this.CaptionHeight - this.Padding.Top - this.Padding.Bottom);
+                    this.Height - this.CaptionHeight - this.Padding.Top - this.Padding.Bottom);  // 
             }
         }
 
@@ -455,7 +480,8 @@ namespace TX.Framework.WindowUI.Forms
             //这种方式设置窗口圆角，边框不好控制
             int rgn = Win32.CreateRoundRectRgn(0, 0,
                 this.Size.Width, this.Size.Height,
-                this._CornerRadius + 1, this._CornerRadius);
+                this._CornerRadius + 1, this._CornerRadius);           
+
             Win32.SetWindowRgn(this.Handle, rgn, true);
         }
 
@@ -467,10 +493,10 @@ namespace TX.Framework.WindowUI.Forms
             // 
             // BaseForm
             // 
-            this.ClientSize = new System.Drawing.Size(292, 273);
+            this.ClientSize = new System.Drawing.Size(308, 297);
             this.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Name = "BaseForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }

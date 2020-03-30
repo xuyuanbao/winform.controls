@@ -758,6 +758,9 @@
     <None Include="Resources\loader %282%29.gif" />
     <None Include="Resources\loader %281%29.gif" />
     <None Include="Resources\loader%280%29.gif" />
+    <EmbeddedResource Include="Controls\Docking\DockContent.resx">
+      <DependentUpon>DockContent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\TXMonthCalendar\Images\prev_month_vs.bmp" />
     <EmbeddedResource Include="Controls\TXMonthCalendar\Images\prev_year.bmp" />
     <EmbeddedResource Include="Controls\TXMonthCalendar\Images\prev_year_disabled.bmp" />
@@ -781,6 +784,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\TXTreeComboBox\TXTreeComboBox.resx">
       <DependentUpon>TXTreeComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PopBox\PopForm.resx">
       <DependentUpon>PopForm.cs</DependentUpon>

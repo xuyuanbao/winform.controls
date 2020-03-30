@@ -8,3 +8,17 @@
 ![img](http://images0.cnblogs.com/blog/151257/201508/091651184099537.png)
 
 ![img](http://images0.cnblogs.com/blog/151257/201508/091651195188566.png)
+
+
+BUG:
+1.边框重绘问题解决
+
+在BaseForm中，407行左右，增加一个case
+case (int)WindowMessages.WM_NCACTIVATE:
+if (m.WParam == (IntPtr)Win32.FALSE)
+{
+m.Result = (IntPtr)Win32.TRUE;
+}
+break;
+
+2.使用TX_UI控件将Form改为MainForm后,出现WINFORM窗体高度自动增加时，在窗体底层放一个容器，并将容器Dock设为Fill即可解决。

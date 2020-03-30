@@ -1,4 +1,3 @@
-F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\WindowsTest.exe.config
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Skin\bg\bg01.jpg
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Skin\bg\bg02.jpg
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Skin\bg\bg03.jpg
@@ -11,6 +10,7 @@ F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Ski
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Skin\SunsetRed.config
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Skin\KissOfAngel.config
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\Config\Skin.ini
+F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\WindowsTest.exe.config
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\WindowsTest.exe
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\WindowsTest.pdb
 F:\C#\winform.controls\TTX.Framework.WindowUI\WindowsTest\bin\Release\TX.Framework.WindowUI.dll

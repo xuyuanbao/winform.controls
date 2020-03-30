@@ -59,6 +59,8 @@
             this.xPanderPanel4 = new TX.Framework.WindowUI.Controls.XPanderPanel();
             this.txTabControl1 = new TX.Framework.WindowUI.Controls.TXTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txGroupBox2 = new TX.Framework.WindowUI.Controls.TXGroupBox();
+            this.txDateTimePicker2 = new TX.Framework.WindowUI.Controls.TXDateTimePicker();
             this.txHtmlEditor1 = new TX.Framework.WindowUI.Controls.TXHtmlEditor();
             this.txGroupBox1 = new TX.Framework.WindowUI.Controls.TXGroupBox();
             this.txDateTimePicker1 = new TX.Framework.WindowUI.Controls.TXDateTimePicker();
@@ -99,8 +101,6 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.monthCalendar1 = new TX.Framework.WindowUI.Controls.MonthCalendar();
-            this.txGroupBox2 = new TX.Framework.WindowUI.Controls.TXGroupBox();
-            this.txDateTimePicker2 = new TX.Framework.WindowUI.Controls.TXDateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -110,6 +110,7 @@
             this.xPanderPanel1.SuspendLayout();
             this.txTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.txGroupBox2.SuspendLayout();
             this.txGroupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -117,7 +118,6 @@
             this.txMenuStrip2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
-            this.txGroupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -143,7 +143,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.txTabControl1);
             this.splitContainer1.Size = new System.Drawing.Size(962, 552);
-            this.splitContainer1.SplitterDistance = 237;
+            this.splitContainer1.SplitterDistance = 217;
             this.splitContainer1.TabIndex = 0;
             // 
             // xPanderPanelList1
@@ -160,7 +160,7 @@
             this.xPanderPanelList1.PanelColors = null;
             this.xPanderPanelList1.PanelStyle = TX.Framework.WindowUI.Controls.PanelStyle.Office2007;
             this.xPanderPanelList1.ShowExpandIcon = true;
-            this.xPanderPanelList1.Size = new System.Drawing.Size(237, 552);
+            this.xPanderPanelList1.Size = new System.Drawing.Size(217, 552);
             this.xPanderPanelList1.TabIndex = 0;
             this.xPanderPanelList1.Text = "xPanderPanelList1";
             // 
@@ -197,7 +197,7 @@
             this.xPanderPanel1.Image = null;
             this.xPanderPanel1.Name = "xPanderPanel1";
             this.xPanderPanel1.PanelStyle = TX.Framework.WindowUI.Controls.PanelStyle.Office2007;
-            this.xPanderPanel1.Size = new System.Drawing.Size(237, 477);
+            this.xPanderPanel1.Size = new System.Drawing.Size(217, 477);
             this.xPanderPanel1.TabIndex = 0;
             this.xPanderPanel1.Text = "分组1";
             this.xPanderPanel1.ToolTipTextCloseIcon = null;
@@ -298,7 +298,7 @@
             this.xPanderPanel2.Image = null;
             this.xPanderPanel2.Name = "xPanderPanel2";
             this.xPanderPanel2.PanelStyle = TX.Framework.WindowUI.Controls.PanelStyle.Office2007;
-            this.xPanderPanel2.Size = new System.Drawing.Size(237, 25);
+            this.xPanderPanel2.Size = new System.Drawing.Size(217, 25);
             this.xPanderPanel2.TabIndex = 1;
             this.xPanderPanel2.Text = "xPanderPanel2";
             this.xPanderPanel2.ToolTipTextCloseIcon = null;
@@ -333,7 +333,7 @@
             this.xPanderPanel3.Image = null;
             this.xPanderPanel3.Name = "xPanderPanel3";
             this.xPanderPanel3.PanelStyle = TX.Framework.WindowUI.Controls.PanelStyle.Office2007;
-            this.xPanderPanel3.Size = new System.Drawing.Size(237, 25);
+            this.xPanderPanel3.Size = new System.Drawing.Size(217, 25);
             this.xPanderPanel3.TabIndex = 2;
             this.xPanderPanel3.Text = "xPanderPanel3";
             this.xPanderPanel3.ToolTipTextCloseIcon = null;
@@ -368,7 +368,7 @@
             this.xPanderPanel4.Image = null;
             this.xPanderPanel4.Name = "xPanderPanel4";
             this.xPanderPanel4.PanelStyle = TX.Framework.WindowUI.Controls.PanelStyle.Office2007;
-            this.xPanderPanel4.Size = new System.Drawing.Size(237, 25);
+            this.xPanderPanel4.Size = new System.Drawing.Size(217, 25);
             this.xPanderPanel4.TabIndex = 3;
             this.xPanderPanel4.Text = "xPanderPanel4";
             this.xPanderPanel4.ToolTipTextCloseIcon = null;
@@ -391,7 +391,7 @@
             this.txTabControl1.Location = new System.Drawing.Point(0, 0);
             this.txTabControl1.Name = "txTabControl1";
             this.txTabControl1.SelectedIndex = 0;
-            this.txTabControl1.Size = new System.Drawing.Size(721, 552);
+            this.txTabControl1.Size = new System.Drawing.Size(741, 552);
             this.txTabControl1.TabCornerRadius = 3;
             this.txTabControl1.TabIndex = 0;
             // 
@@ -417,10 +417,39 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(713, 519);
+            this.tabPage1.Size = new System.Drawing.Size(733, 519);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "窗体组件测试";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // txGroupBox2
+            // 
+            this.txGroupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.txGroupBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.txGroupBox2.CaptionColor = System.Drawing.Color.Black;
+            this.txGroupBox2.CaptionFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold);
+            this.txGroupBox2.Controls.Add(this.txDateTimePicker2);
+            this.txGroupBox2.CornerRadius = 0;
+            this.txGroupBox2.Location = new System.Drawing.Point(334, 240);
+            this.txGroupBox2.Name = "txGroupBox2";
+            this.txGroupBox2.Size = new System.Drawing.Size(270, 70);
+            this.txGroupBox2.TabIndex = 16;
+            this.txGroupBox2.TabStop = false;
+            this.txGroupBox2.Text = "分组1";
+            this.txGroupBox2.TextMargin = 6;
+            // 
+            // txDateTimePicker2
+            // 
+            this.txDateTimePicker2.CalendarForeColor = System.Drawing.Color.Blue;
+            this.txDateTimePicker2.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.txDateTimePicker2.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(74)))), ((int)(((byte)(181)))), ((int)(((byte)(237)))));
+            this.txDateTimePicker2.CalendarTrailingForeColor = System.Drawing.Color.CadetBlue;
+            this.txDateTimePicker2.Location = new System.Drawing.Point(7, 20);
+            this.txDateTimePicker2.Name = "txDateTimePicker2";
+            this.txDateTimePicker2.ShowCheckBox = true;
+            this.txDateTimePicker2.Size = new System.Drawing.Size(132, 21);
+            this.txDateTimePicker2.TabIndex = 0;
+            this.txDateTimePicker2.Value = new System.DateTime(2015, 8, 9, 16, 8, 2, 250);
             // 
             // txHtmlEditor1
             // 
@@ -1022,35 +1051,6 @@
             this.monthCalendar1.Weekdays.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(65)))), ((int)(((byte)(0)))));
             this.monthCalendar1.Weeknumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             // 
-            // txGroupBox2
-            // 
-            this.txGroupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.txGroupBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.txGroupBox2.CaptionColor = System.Drawing.Color.Black;
-            this.txGroupBox2.CaptionFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold);
-            this.txGroupBox2.Controls.Add(this.txDateTimePicker2);
-            this.txGroupBox2.CornerRadius = 0;
-            this.txGroupBox2.Location = new System.Drawing.Point(334, 240);
-            this.txGroupBox2.Name = "txGroupBox2";
-            this.txGroupBox2.Size = new System.Drawing.Size(270, 70);
-            this.txGroupBox2.TabIndex = 16;
-            this.txGroupBox2.TabStop = false;
-            this.txGroupBox2.Text = "分组1";
-            this.txGroupBox2.TextMargin = 6;
-            // 
-            // txDateTimePicker2
-            // 
-            this.txDateTimePicker2.CalendarForeColor = System.Drawing.Color.Blue;
-            this.txDateTimePicker2.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
-            this.txDateTimePicker2.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(74)))), ((int)(((byte)(181)))), ((int)(((byte)(237)))));
-            this.txDateTimePicker2.CalendarTrailingForeColor = System.Drawing.Color.CadetBlue;
-            this.txDateTimePicker2.Location = new System.Drawing.Point(7, 20);
-            this.txDateTimePicker2.Name = "txDateTimePicker2";
-            this.txDateTimePicker2.ShowCheckBox = true;
-            this.txDateTimePicker2.Size = new System.Drawing.Size(132, 21);
-            this.txDateTimePicker2.TabIndex = 0;
-            this.txDateTimePicker2.Value = new System.DateTime(2015, 8, 9, 16, 8, 2, 250);
-            // 
             // winMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1063,6 +1063,7 @@
             this.MainMenuStrip = this.txMenuStrip1;
             this.Name = "winMain";
             this.Padding = new System.Windows.Forms.Padding(5, 8, 5, 5);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "主窗体-**ERP系统";
             this.Load += new System.EventHandler(this.winMain_Load);
             this.panel1.ResumeLayout(false);
@@ -1075,6 +1076,7 @@
             this.txTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.txGroupBox2.ResumeLayout(false);
             this.txGroupBox1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -1084,7 +1086,6 @@
             this.txMenuStrip2.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
-            this.txGroupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -95,12 +95,14 @@ F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\bin\Release\
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\bin\Release\office.dll
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\bin\Release\TX.Framework.dll
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\bin\Release\System.Data.SQLite.dll
+F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.Docking.DockContent.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.TreeComboBoxContainer.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.AlignControl.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.ImageListPanel.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.MonthCalendar.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.TXRangeValue.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.TreeComboBox.resources
+F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Forms.MainForm.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Forms.PopForm.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.Docking.Resources.resources
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.Controls.Docking.Strings.resources
@@ -128,4 +130,3 @@ F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.csproj.GenerateResource.Cache
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.dll
 F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.pdb
-F:\C#\winform.controls\TTX.Framework.WindowUI\TX.Framework.WindowUI\obj\Release\TX.Framework.WindowUI.csprojResolveAssemblyReference.cache
